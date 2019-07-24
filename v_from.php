@@ -36,7 +36,7 @@ if (isset($_get['nis'])){
 </div>
 <div>
     <lebel for = 'alamat'>alamat: </label><br>
-    <textarea nama = "alamat" row ="5" ="<?php if (isset($_get['nis'])){ echo $siswa['alamat'];}?></textarea>
+    <textarea nama = "alamat" row ="5" ="<?php if (isset($_get['nis'])){ echo $siswa['alamat'];}?>c</textarea>
 </div>
 <div>
     <label for ="jenis_kelamin">jenis kelamin: </label><br>
